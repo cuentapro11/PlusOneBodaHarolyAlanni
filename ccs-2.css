@@ -173,15 +173,15 @@ body {
     padding: 4rem 1rem;
 }
 
-.events-section,
-.gifts-section {
+.plusone-section,
+.party-section,
+.rsvp-section {
     background-color: hsl(var(--warm-white));
 }
 
 .countdown-section,
-.plusone-section,
-.party-section,
-.rsvp-section {
+.events-section,
+.gifts-section {
     background-color: hsl(var(--cream));
 }
 
