@@ -16,12 +16,13 @@
         <div class="hero-content">
             <div class="hero-text">
                 <div class="date">24.10.2026</div>
-                <h1 class="names">Alanni <span class="ampersand">&</span> Harol</h1>
+                <h1 class="names"><span class="names-green">Harol</span> <span class="ampersand">&</span> <span class="names-green">Alanni</span></h1>
                 <blockquote class="quote">
                     "El amor es paciente, es bondadoso. El amor no es envidioso ni jactancioso ni orgulloso.<br />
                     No se comporta con rudeza, no es egoísta, no se enoja fácilmente, no guarda rencor.<br />
                     El amor no se deleita en la maldad sino que se regocija con la verdad.<br />
-                    Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta."
+                    Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta."<br />
+                    <span class="verse-ref">— 1 Corintios 13:4-7</span>
                 </blockquote>
                 <div class="scroll-indicator">
                     <div class="scroll-mouse">
@@ -35,9 +36,9 @@
     <!-- Content -->
     <div class="content">
 
-        <!-- Countdown — fondo cream (default) -->
+        <!-- Countdown -->
         <section class="countdown-section">
-            <h2 class="section-title">Falta</h2>
+            <h2 class="section-title">Faltan</h2>
             <div class="countdown-container">
                 <div class="countdown-item">
                     <div class="countdown-number" id="days">00</div>
@@ -61,24 +62,20 @@
             </div>
         </section>
 
-        <!-- Plus One — fondo warm-white (alternado) -->
-        <section class="plusone-section">
-            <div class="plusone-container">
+        <!-- Guests -->
+        <section class="guests-section">
+            <div class="guests-container">
                 <h2 class="section-title">Invitados</h2>
-                <p class="section-subtitle">Esta invitación es válida para</p>
-
-                <div class="plusone-badge">
-                    <span class="plusone-number">2</span>
+                <p class="guests-subtitle">Esta invitación es válida para</p>
+                <div class="guests-circle">
+                    <span class="guests-number" id="guestCount">2</span>
                 </div>
-
-                <p class="plusone-label">personas</p>
-                <p class="plusone-note">+ 1 acompañante incluido</p>
-
-                <p class="plusone-message"><em>Tu presencia es lo más importante. ¡No faltes!</em></p>
+                <p class="guests-label">PERSONAS</p>
+                <p class="guests-message"><em>Tu presencia es lo más importante. ¡No faltes!</em></p>
             </div>
         </section>
 
-        <!-- Ceremony & Celebration — fondo cream (alternado) -->
+        <!-- Ceremony & Celebration -->
         <section class="events-section">
             <div class="events-container">
                 <!-- Ceremony -->
@@ -117,22 +114,21 @@
                             style="width:110px;height:110px">
                         </lord-icon>
                     </div>
-                    <h3 class="event-title">Recepción</h3>
+                    <h3 class="event-title">Celebración</h3>
                     <div class="event-details">
                         <h4>Día</h4>
                         <p>Sábado 24 de Octubre - 6:30 pm</p>
                     </div>
                     <div class="event-details">
                         <h4>Lugar</h4>
-                        <p>Club Los Prados, Salón Principal</p>
-                        <p class="event-address">C. Francisco Prats Ramírez 399, Santo Domingo</p>
+                        <p class="event-address">Calle Lorenzo Despradel, Los Prados</p>
                     </div>
                     <button class="btn-wedding" onclick="openLocation('celebration')">¿Cómo llegar?</button>
                 </div>
             </div>
         </section>
 
-        <!-- Party — fondo cream (default) -->
+        <!-- Party -->
         <section class="party-section">
             <div class="party-container">
                 <h2 class="section-title">Fiesta</h2>
@@ -179,7 +175,7 @@
             </div>
         </section>
 
-        <!-- Gifts — fondo warm-white -->
+        <!-- Gifts -->
         <section class="gifts-section">
             <div class="gifts-container">
                 <h2 class="section-title">Regalos</h2>
@@ -200,13 +196,12 @@
             </div>
         </section>
 
-        <!-- RSVP — fondo cream (default) -->
+        <!-- RSVP -->
         <section class="rsvp-section">
             <div class="rsvp-container">
                 <h2 class="section-title">Confirma tu Asistencia</h2>
                 <p class="section-subtitle">Comparte este hermoso momento con nosotros</p>
                 
-                <!-- Icono de carta/formulario con temática de boda, reemplaza el de WhatsApp -->
                 <div class="rsvp-icon">
                     <svg viewBox="0 0 100 100" width="120" height="120" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:auto;overflow:visible;">
                         <style>
@@ -223,20 +218,15 @@
                                 100%    { opacity:0; transform: scale(0) translateY(8px); }
                             }
                         </style>
-                        <!-- Sobre -->
                         <rect x="12" y="38" width="76" height="48" rx="4" fill="#637043" opacity="0.15" stroke="#637043" stroke-width="2"/>
-                        <!-- Líneas de papel -->
                         <line x1="25" y1="52" x2="75" y2="52" stroke="#637043" stroke-width="1.5" opacity="0.4"/>
                         <line x1="25" y1="60" x2="65" y2="60" stroke="#637043" stroke-width="1.5" opacity="0.4"/>
-                        <!-- Tapa del sobre animada -->
                         <g class="env-lid">
                             <path d="M12,38 L50,62 L88,38 Z" fill="#637043" opacity="0.85"/>
                         </g>
-                        <!-- Corazón que sale -->
                         <g class="env-heart">
                             <path d="M50,48 C50,48 42,41 38,44 C34,47 34,53 38,56 L50,66 L62,56 C66,53 66,47 62,44 C58,41 50,48 50,48 Z" fill="#8B5E3C" opacity="0.9"/>
                         </g>
-                        <!-- Base del sobre -->
                         <path d="M12,86 L50,63 L88,86 Z" fill="#637043" opacity="0.5"/>
                     </svg>
                 </div>
