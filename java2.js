@@ -40,7 +40,7 @@ function initializeCountdown() {
 // Funciones de los botones
 function openLocation(location) {
     const urls = {
-        ceremony:    "https://maps.app.goo.gl/hXBP9T1xPPegVVPi9",
+        ceremony:    "https://maps.app.goo.gl/rNBrZmsXe9N7nwzN6?g_st=ic",
         celebration: "https://maps.app.goo.gl/y7knuC8fXERsHMNz7"
     };
     window.open(urls[location], '_blank');
